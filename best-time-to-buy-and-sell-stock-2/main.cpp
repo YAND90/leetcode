@@ -39,13 +39,7 @@ int maxProfit(std::vector<int> &prices)
 int main()
 {
     //input
-    std::vector<int> input;
-    input.push_back(7);
-    input.push_back(1);
-    input.push_back(5);
-    input.push_back(3);
-    input.push_back(6);
-    input.push_back(4);
+    std::vector<int> input{7, 1, 5, 3, 6, 4};
 
     //output
     int output = 7;

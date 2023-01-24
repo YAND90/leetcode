@@ -24,15 +24,10 @@ int removeDuplicates(std::vector<int> &nums)
 int main()
 {
     // input
-    std::vector<int> input;
-    input.push_back(1);
-    input.push_back(1);
-    input.push_back(2);
+    std::vector<int> input {1, 1, 2};
 
     // expected output
-    std::vector<int> output;
-    output.push_back(1);
-    output.push_back(2);
+    std::vector<int> output{1, 2};
 
     int len = removeDuplicates(input);
 
